@@ -1,0 +1,116 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model **/
+    scroll-snap-type: y mandatory;
+}
+
+.menu{
+    margin: 10px;
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 10%;
+}
+
+nav a{
+    font-size: 1.2rem;
+    color: #C43721; 
+    margin: 5px 5px;
+    padding: 10px 25px ;
+    border: 1px solid;
+}
+
+nav a:hover{
+    background-color: #C43721;
+    color: white;
+}
+
+.imagenPrincipal{
+    height: 400px;
+    background-image: url("./img/header.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    color: white;
+    background: rgba(56, 56, 56, 0.8);
+    padding: 10px 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.texto h1{
+    font-family: 'Yellowtail', cursive;
+    font-size: 6rem;
+}
+   
+.texto .textoParrafo{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.part1{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+.part1 .experience{
+    font-family: 'Yellowtail', cursive;
+    color: #C43721;
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+.part1 .works{
+    font-family: 'Yellowtail', cursive;
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin: auto;
+    }
+
+.parrafo1{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.imagen1, .imagen2, .imagen3, .imagen4{
+    width: 255px;
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+p, .tituloImagen{
+    font-size: 15px;
+    
+}
+
+.tituloImagen{
+    font-weight: bold;
+}
+
+img{
+    width: 200px;
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.8) ;
+}
+
+.button{
+    color: #C43721;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
